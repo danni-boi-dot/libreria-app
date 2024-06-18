@@ -1,23 +1,75 @@
 .App {
-  text-align: center;
-}
-
-.libro {
-  margin-bottom: 20px;
-  padding: 10px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ceeaf3;
   border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.libro form {
-  margin-top: 10px;
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.libro label {
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  flex: 1 1 150px;
   margin-right: 10px;
 }
 
-.lista-libros {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  color: #dc3545;
 }
