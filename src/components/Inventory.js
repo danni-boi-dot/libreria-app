@@ -3,7 +3,7 @@ import React from 'react';
 const Inventory = ({ inventory }) => {
   return (
     <div>
-      <h2>Inventario</h2>
+      <h2>Consultar Inventario</h2>
       {Object.keys(inventory).map((categoria) => (
         <div key={categoria}>
           <h3>{categoria}</h3>

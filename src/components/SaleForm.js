@@ -6,10 +6,9 @@ const SaleForm = ({ libros, onSale }) => {
 
   const handleSale = (e) => {
     e.preventDefault();
-    // Aquí podrías validar el formulario si es necesario
-
-    // Llamar a la función de venta en el padre
     onSale(selectedBook, cantidad);
+    setSelectedBook('');
+    setCantidad(0);
   };
 
   return (

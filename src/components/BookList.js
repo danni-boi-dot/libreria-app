@@ -3,7 +3,7 @@ import React from 'react';
 const BookList = ({ books }) => {
   return (
     <div>
-      <h2>Lista de Libros</h2>
+      <h2>Registro Venta</h2>
       <ul>
         {books.map((book) => (
           <li key={book.id}>

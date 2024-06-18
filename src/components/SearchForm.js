@@ -5,9 +5,6 @@ const SearchForm = ({ onSearch }) => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Aquí podrías validar el formulario si es necesario
-
-    // Llamar a la función de búsqueda en el padre
     onSearch(searchTerm);
   };
 
